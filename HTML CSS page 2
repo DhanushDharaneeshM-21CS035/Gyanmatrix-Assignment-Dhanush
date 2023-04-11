@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .mar{
+            margin-left: 700px;
+        }
+        .mar1{
+            top: px;
+            margin-left: 650px;
+        }
+    </style>
+    <img src="F:\Gyanmatrix\wizard logo2.png" width="200px" >
+    <img class="mar" src="F:\Gyanmatrix\wizard staff.png" width="130px" >
+    <img class="mar1" src="F:\Gyanmatrix\wizard student.png" width="130px" >
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<body>
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+  <img src="F:\Gyanmatrix\dumbledore.png" style="width:50%">
+  <img src="F:\Gyanmatrix\mcgonagall.png" style="width:50%">
+  </div>
+
+  <div class="column">
+  <img src="F:\Gyanmatrix\hagrid.png" style="width:50%">
+  <img src="F:\Gyanmatrix\Umbridge.png" style="width:50%">
+  </div>  
+
+  <div class="column">
+  <img src="F:\Gyanmatrix\lupin.png" style="width:50%">
+  <img src="F:\Gyanmatrix\snape.png" style="width:50%">  
+  </div>
+  
+</div>
+
+</body>
+</html>
