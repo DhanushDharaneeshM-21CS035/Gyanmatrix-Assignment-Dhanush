@@ -1,21 +1,90 @@
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!DOCTYPE html>
+<html style="background-color: black;">
+    <head style="color: black;">
+        <meta charset="UTF-8">
+    
+    <meta http-equiv="refresh" content="30">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body background="background.png">
-    <div class="logo">
-        <img class=" wizard star" src="img/wizard logo.png" alt="">
-        <div class="wrapper">
-            <div class="form-values">
-                <h1>LogIn</h1>
-                <input type="email" required placeholder="Your email" class="input-data">
-                <input type="password" required placeholder="Your password" class="input-data">
-                <button type="submit">Login</button>
-            </div>
-        </div>
-    </div>
-</body>
+    <title>wizard house</title>
+    <img src="img/wizard logo.png" width="200px" >
+    <link rel="stylsheet"href="app.css">
+    <link rel="shortcut icon" href="img/background.jpg">
+    
+    <style>
+     .container{
+       padding-top: 0%;
+       padding-bottom: 0%;
+       padding-left: 0% ;
+       padding-right:0% ;
+        background-image: url("bacgroundimage.png");
+        background-color:black;
+        background-size:1000px;
+        height: 600px;
+
+     }
+     input{
+        text-align: center;
+     }
+       [type=text], input[type=password] {  
+               text-align: center;
+               padding:0px;
+               width: 300px;
+               border-left:135px;
+               border-right: 472px;
+               top:0px;
+                height: 50px;
+                line-height: 50px;;
+                border-radius: 45px;
+                margin-top: 0%;
+                margin-left: -1000px;
+                background-color: black;
+                border-color: red;
+       }
+    .login{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 75px;
+letter-spacing: -0.015em;
+margin-left: -1000px;
+color: white;;
+                }
+                button{
+                    background-color:#FFCD2D;   
+                 width: 100%;  
+                color: black;   
+                padding: 15px;   
+                width: 300px;
+                height: 50px;
+                border-radius: 40px; 
+                margin-left: -1000px;
+                }
+                form{
+                    left:135px;
+                }
+    
+    </style>
+    </head>
+    <body > 
+    <form>  
+        <div class="container">   
+          <br/>
+          <br/>
+          
+            <div style="text-align:center;">
+              <h1>LogIn</h1>
+              <h1 class="login"><b>LogIn</b></h1>
+            <input type="text" placeholder="UserName" name="username" required> <br/><br/>
+
+            <input type="password" placeholder="Password" name="password" required>  <br><br><br>
+            <button type="submit"><b>Login</b></button>   
+          </div>
+            
+        </div>   
+    </form>    
+    </body>
+    <footer >
+        <h5 style="font-family: roboto;text-align: end;">@ all rigths reserved</h5>
+    </footer>
 </html>
