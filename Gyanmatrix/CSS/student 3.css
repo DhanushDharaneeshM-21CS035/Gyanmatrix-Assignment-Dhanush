@@ -1,0 +1,155 @@
+body{
+    background-color: #e9faf7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+    margin:0;
+    background-attachment: fixed;
+    touch-action: none;
+}
+.container{
+    margin: 10px;
+    padding: 10px;
+}
+.contain{
+    display: flex;
+    margin-top: 13px;
+    margin-left: 66px;
+    background-attachment: fixed;
+}
+
+.logo{
+    position: absolute;
+    top: 9px;
+    left: 11px;
+    width: 223px;
+    height: 87px;
+}
+.box{
+    background-attachment: fixed;
+    width: 740px;
+    height: 648px;
+    background-color: #B7EDDA;
+    filter: blur(41.5px);
+    margin-top: 80px;
+    margin-left: 33px;
+}
+.back-box{
+    margin: auto;
+    background-color: black;
+    width: 576px;
+    height: 466px;
+    position: absolute;
+    top: 178px;
+    margin-left: 100px;
+    border-radius: 29px;
+}
+.main-box{
+    margin: auto;
+    background-color: #148341;
+    width: 529px;
+    height: 429px;
+    border-radius: 2%;
+    filter: blur(20px);
+    position: absolute;
+    top: 194px;
+    margin-left: 123px;
+}
+.house{
+    position: absolute;
+    width: 133px;
+    height: 146px;
+    top: 98px;
+    padding-left: 330px;
+}
+.staff{
+    position: absolute;
+    width: 185px;
+    height: 230px;
+    top: 208px;
+    padding-left: 472px;
+    background-attachment: fixed;
+}
+.font{
+    position: absolute;
+    height: 32px;
+    width: 137px;
+    top: 231px;
+    padding-left: 141px;
+}
+.text{
+    position: absolute;
+    width: 307px;
+    height: 303px;
+    top: 289px;
+    padding-left: 133px;
+}
+
+@media only screen and (max-width:600px){
+    .box {
+        background-attachment: fixed;
+        width: 600px;
+        height: 582px;
+        background-color: #B7EDDA;
+        filter: blur(41.5px);
+        margin-top: 95px;
+        margin-left: -79px;
+    }
+    .back-box {
+        margin: auto;
+        background-color: black;
+        width: 285px;
+        height: 521px;
+        position: absolute;
+        top: 165px;
+        margin-left: -33px;
+        border-radius: 29px;
+    }
+    .main-box {
+        margin: auto;
+        background-color: #148341;
+        width: 247px;
+        height: 477px;
+        border-radius: 2%;
+        filter: blur(20px);
+        position: absolute;
+        top: 180px;
+        margin-left: -13px;
+    }
+    .logo {
+        position: absolute;
+        top: 9px;
+        left: 11px;
+        width: 223px;
+        height: 87px;
+    }
+    .house {
+        position: absolute;
+        width: 108px;
+        height: 120px;
+        top: 98px;
+        padding-left: 60px;
+    }
+    .staff{
+        position: absolute;
+        width: 122px;
+        height: 145px;
+        top: 208px;
+        padding-left: 58px;
+        background-attachment: fixed;
+    }
+    .font {
+        position: absolute;
+        height: 25px;
+        width: 116px;
+        top: 350px;
+        padding-left: 62px;
+    }
+    .text {
+        position: absolute;
+        width: 201px;
+        height: 266px;
+        top: 394px;
+        padding-left: 18px;
+    }
+
+}
